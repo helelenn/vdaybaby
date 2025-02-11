@@ -1,0 +1,108 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flipbook {
+    background-color: #fff;
+    width: 1000px; 
+    height: 800px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    padding: 30px;
+}
+
+.page {
+    display: none;
+    font-size: 18px;
+    padding: 20px;
+    color: #ff69b4;
+    text-align: center; /* Center text */
+}
+
+.page.active {
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+    color: #ff69b4;
+}
+
+#by {
+    font-size: 20px;
+}
+.story-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff69b4;
+}
+
+.story-text {
+    text-align: center;
+    font-size: 20px;
+    color: #ff69b4;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.valentine-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.valentine-buttons .btn {
+    flex: none;
+    margin: 0 10px;
+    width: auto;
+}
+
+.btn {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background-color: #ff4a62;
+}
+
+#noButton {
+    position: relative;
+    transition: 0.2s;
+    padding: 10px 20px;
+    background-color: #f44336;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#noButton:hover {
+    transform: translate(100px, 100px);
+}

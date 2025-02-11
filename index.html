@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Flipbook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="flipbook">
+    <div class="page active" id="title-page">
+        <div class="title">Helen and Eirzaad!<br>By Helen</div>
+        <button class="btn" id="playBtn">Play</button>
+    </div>
+
+    <div class="page" id="page1">
+        <div class="story-title">Page 1</div>
+        <div class="story-text">Helen and Eirzaad were best friends! They met in their physics class Junior year.</div>
+        <div class="buttons">
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page2">
+        <div class="story-title">Page 2</div>
+        <div class="story-text">They quickly became close, and liked to hang out with each other...</div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page3">
+        <div class="story-title">Page 3</div>
+        <div class="story-text">Over the next two years, they started doing more fun things together,
+             like going to the beach, the park, and concerts.</div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page4">
+        <div class="story-title">Page 4</div>
+        <div class="story-text">One miraculous day, Helen decided to kiss Eirzaad at Brooklyn Bridge 
+            Park! They were both like what the freak!!</div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page5">
+        <div class="story-title">Page 5</div>
+        <div class="story-text">They went out on their first date at their favorite Thai place.</div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page6">
+        <div class="story-title">Page 6</div>
+        <div class="story-text">Then, Eirzaad asked Helen out to prom!</div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page7">
+        <div class="story-title">Page 7</div>
+        <div class="story-text">During a picnic at central park, Eirzaad asked Helen to be his girlfriend. 
+            How exciting!
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page8">
+        <div class="story-title">Page 8</div>
+        <div class="story-text">They went to prom the next day!
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page9">
+        <div class="story-title">Page 9</div>
+        <div class="story-text">Then they graduated high school together! 
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page10">
+        <div class="story-title">Page 10</div>
+        <div class="story-text">Summer came, and Helen had to go back to the motherland for a month. 
+            The time difference was tough, but they made it through.
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page11">
+        <div class="story-title">Page 11</div>
+        <div class="story-text">They spent the next two weeks hanging out as
+             much as they could before college started.
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page12">
+        <div class="story-title">Page 12</div>
+        <div class="story-text">Nooo! The start of long distance! But dont worry, Helen would be back soon…
+
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page13">
+        <div class="story-title">Page 13</div>
+        <div class="story-text">To celebrate Eirzaads Birthday! Happy 18th!
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page14">
+        <div class="story-title">Page 14</div>
+        <div class="story-text">Then next month was Helens birthday! Happy 18th as well!
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page15">
+        <div class="story-title">Page 15</div>
+        <div class="story-text">Thanksgiving break came and so did their 6th month anniversary. Congratulations!
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page16">
+        <div class="story-title">Page 16</div>
+        <div class="story-text">Finally! Winter break. They got to be together for a month. 
+            And did some super awesome things I wont say. (But you know)...
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page17">
+        <div class="story-title">Page 17</div>
+        <div class="story-text">Nooo.. The spring semester is starting! See you during spring break?
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <div class="page" id="page18">
+        <div class="story-title">Page 18</div>
+        <div class="story-text">Just kidding! Ill see you veryyyy soon hehe. Happy Valentines Day!
+
+        </div>
+
+        <div class="buttons">
+            <button class="btn" onclick="prevPage()">Back</button>
+            <button class="btn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+
+    <div class="page" id="finalPage">
+        <div class="story-title">Be My Valentine?</div>
+        <div class="story-text">I love you so much!</div>
+        <div class="buttons valentine-buttons">
+            <button class="btn" id="yesButton" onclick="valentineAnswer('yes')">Yes</button>
+            <button class="btn" id="noButton" onmouseover="dodgeNoButton()">No</button>
+        </div>
+    </div>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
